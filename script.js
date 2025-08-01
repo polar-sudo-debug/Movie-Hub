@@ -5,7 +5,7 @@ async function searchMovies() {
 }
 
 async function fetchMovies(query) {
-    const response = await fetch(`api/movies.js?query=${query}`);
+    const response = await fetch(`https://vidsrc.to/api/movies?query=${query}`);
     const data = await response.json();
     return data;
 }
