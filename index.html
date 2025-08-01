@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Piracy Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MovieHub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-bar">
+            <form action="search.html" method="get">
+                <input type="text" name="query" placeholder="Search for movies or TV shows..." required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section class="featured-movies">
+            <h2>Featured Movies</h2>
+            <div class="movie-list">
+                <!-- Movie items will be dynamically inserted here -->
+            </div>
+        </section>
+        <section class="movie-categories">
+            <h2>Categories</h2>
+            <div class="category-list">
+                <!-- Category items will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MovieHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
