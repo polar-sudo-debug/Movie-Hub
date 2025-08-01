@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar form {
+    display: inline-block;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.featured-movies, .movie-categories, .search-results {
+    padding: 20px;
+}
+
+.featured-movies h2, .movie-categories h2, .search-results h2 {
+    margin-bottom: 20px;
+}
+
+.movie-list, .category-list, .result-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-list .movie-item, .category-list .category-item, .result-list .result-item {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.movie-list .movie-item img, .category-list .category-item img, .result-list .result-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.movie-details, .tv-show-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.movie-details h1, .tv-show-details h1 {
+    margin-bottom: 20px;
+}
+
+.movie-details img, .tv-show-details img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.watch-now {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4500;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
